@@ -1,0 +1,263 @@
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /* common start */
+    .kid1, .kid2, .courses, .branding2{
+     padding-top: 50px;
+    padding-bottom: 60px;
+}
+/* heder start */
+	.logo{
+		width: 150px;
+	}
+
+		.menu ul li a{
+    padding: 2px 13px !important;
+ }
+ .menu ul li a:hover{
+ 	 background-color: transparent;
+    
+    color: #f05c5c !important;
+ }
+ .dd_user_ul {
+    top: 110%;
+    left: 0;}
+    .dd_search_ul{
+     top: 111%;
+    left: 0;
+    min-width: 280px;
+    }
+
+	/* header end */
+	/* banner start */
+	.b_content h1 {
+    margin-top: 80px;
+    margin-bottom: 90px;
+    font-size: 33px;
+    }
+
+    .scroll p {
+  
+    font-size: 16px;
+}
+.scroll i {
+    font-size: 30px;
+
+}
+
+
+	/* banner end */
+	/* kid1 start */
+
+.k_h1{
+	font-size: 25px;
+}
+.k_border{
+	font-size: 22px;
+}
+	.k_content {
+    margin-bottom: 30px;
+}
+    .k1_img {
+    	margin-bottom: 20px;
+   
+}
+.discover{
+	width: 180px !important;
+}
+/* kid2 start */
+.k2_single {
+    margin-bottom: 30px;
+}
+.k2single3{
+    margin-bottom: 0px;
+}
+.k2_single_c{
+    margin-bottom: 0;
+}
+.c_single{
+    margin-bottom: 30px;
+}
+.c_single3, .c_single4{
+    margin-bottom: 0;
+}
+/* memorable start */
+.memorable {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+ }
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+       /* common start */
+    .kid1, .kid2, .courses, .memorable, .branding2{
+     padding-top: 70px;
+    padding-bottom: 70px;
+}
+		.menu ul li a{
+    padding: 2px 13px !important;
+ }
+ .menu ul li a:hover{
+ 	 background-color: transparent;
+    
+    color: #f05c5c !important;
+ }
+ .dd_user_ul {
+    top: 110%;
+    left: 0;}
+    .dd_search_ul{
+     top: 111%;
+    left: 0;
+    }
+
+	/* header end */
+	/* banner start */
+	.b_content h1 {
+    margin-top: 140px;
+    margin-bottom: 120px;
+    font-size: 38px;
+
+}
+.scroll p {
+    font-size: 15px;
+}
+.scroll i {
+    font-size: 30px;
+}
+	/* banner end */
+/* kid1 start */
+        .k_content {
+    margin-bottom: 30px;
+}
+    .k1_img {
+        margin-bottom: 30px;
+    text-align: center;
+}
+.discover{
+    width: 200px;
+}
+/* kid2 start */
+.k2_single {
+    margin-bottom: 40px;
+}
+.k2single3{
+    margin-bottom: 0px;
+}
+.k2_single_c{
+    margin-bottom: 0;
+}
+
+.c_single{
+    margin-bottom: 30px;
+}
+.c_single3, .c_single4{
+    margin-bottom: 0;
+}
+/* memorable start */
+.memorable {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+}
+    
+
+  
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.menu ul li a{
+    padding: 2px 13px !important;
+ }
+ .menu ul li a:hover{
+ 	 background-color: transparent;
+    
+    color: #f05c5c !important;
+ }
+ .dd_user_ul {
+    top: 110%;
+    left: 0;}
+    .dd_search_ul{
+     top: 111%;
+    left: 0;
+    }
+
+	/* header end */
+	/* banner start */
+	.b_content h1 {
+    margin-top: 140px;
+    margin-bottom: 130px;
+    font-size: 48px;
+}
+    /* banner end */
+    /* kid1 start */
+
+    .k1_img {
+    	margin-bottom: 30px;
+    text-align: center;
+}
+.discover{
+	width: 200px;
+}
+/* kid2 start */
+.k2_single {
+    margin-bottom: 50px;
+}
+.k2single3{
+    margin-bottom: 0;
+}
+.k2_single_c{
+    margin-bottom: 0;
+}
+/* course start */
+.k_content2 {
+    margin-bottom: 50px;
+}
+.c_single{
+    margin-bottom: 30px;
+}
+.c_single3, .c_single4{
+    margin-bottom: 0;
+}
+
+
+ }
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	/* banner start */
+	.b_content h1 {
+    margin-top: 180px;
+    margin-bottom: 170px;}
+    /* banner end */
+
+ }
+
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+.b_content h1 {
+    margin-top: 240px;
+    margin-bottom: 220px;}
+    /* banner end */
+
+ }
+
+
+
+/*Extra extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) and (max-width: 1899.98px)  {
+
+
+ }
+ /* custom device  large dekstops more than 1900px*/
+ @media (min-width: 1900px)  {
+ 	/* banner start */
+ 	.b_content h1 {
+    margin-top: 400px;
+    margin-bottom: 390px;
+    font-size: 55px;
+ 	/* banner end */
+
+
+ }

@@ -1,0 +1,23 @@
+.panel{
+	padding: 20px;
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	background: teal;
+	cursor: pointer;
+}
+.content{
+	padding: 20px;
+	color: white;
+	background: #95afc0;
+}
+#draggable { 
+	width: 150px; 
+	height: 150px;
+	 padding: 0.5em;
+	 background-color: red;
+
+}
+#accordion{
+	
+}
